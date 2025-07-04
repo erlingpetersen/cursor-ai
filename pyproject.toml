@@ -1,0 +1,15 @@
+[project]
+name = "fastapi-app"
+version = "0.1.0"
+description = "A FastAPI application"
+authors = [
+    {name = "Your Name", email = "your.email@example.com"}
+]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "fastapi>=0.104.0",
+    "uvicorn[standard]>=0.24.0",
+    "pydantic>=2.5.0",
+    "pydantic-settings>=2.0.0",
+] 
